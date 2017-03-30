@@ -30,4 +30,17 @@ public class Rental {
     public int getDaysRented() {
         return daysRented;
     }
+
+
+    public double getCharge() {
+        return _move.getCharge(daysRented);
+    }
+
+    /**
+     * 积分
+     * @return
+     */
+    public int getFrequentRenterPonits() {
+        return _move.getFrequentRenterPonits(daysRented);
+    }
 }

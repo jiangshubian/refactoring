@@ -15,10 +15,10 @@ public class CustomerTest {
         Customer customer = new Customer("shu");
 
         Move move1 = new Move("abc", 1);
-        Rental rental_1 = new Rental(move1, 4);
+        Rental rental_1 = new Rental(move1, 3);
 
         Move move2 = new Move("亚麻跌", 0);
-        Rental rental_2 = new Rental(move2, 4);
+        Rental rental_2 = new Rental(move2, 3);
 
         customer.addRental(rental_1);
         customer.addRental(rental_2);
